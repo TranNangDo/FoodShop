@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodFood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -37,14 +40,14 @@
         <section>
             <div class="container">
                 <div class="home">
-                    <div class="col l-7">
+                    <div class="col l-5">
                         <div class="home__slogan">
                             <h2>We Belive Good Food Offer Great Smile</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, sequi! Commodi nihil dolor sunt ut hic sapiente suscipit laudantium sequi?</p>
-                            <a href="">Get Started</a>
+                            <a href="" class="yellow-btn">Get Started</a>
                         </div>
                     </div>
-                    <div class="col l-5">
+                    <div class="col l-3">
                         <div class="home__pic">
                             <img src="./images/home-img.png" alt="">
                         </div>
@@ -57,16 +60,16 @@
         <section>
             <div class="container">
                 <div class="about">
-                    <div class="col l-6">
+                    <div class="">
                         <div class="about__pic">
-                            <img src="./images/about-img.jpg" alt="" style="background-image: url(./images/about-frame-img.png);">
+                            <img src="./images/about-frame-img.png" alt="" style="background-image: url(./images/about-img.jpg);">
                         </div>
                     </div>
-                    <div class="col l-6">
+                    <div class="about__content">
                         <h2>A Word About Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, illum omnis corporis quis veniam aspernatur recusandae sint saepe accusamus quibusdam quae architecto aliquam. Voluptates assumenda neque tenetur ipsa ut provident?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, cumque. Optio quasi alias voluptate architecto aperiam exercitationem accusantium saepe deserunt.</p>
-                        <a href="">Learn More</a>
+                        <a href="" class="yellow-btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -76,13 +79,15 @@
         <section>
             <div class="container">
                 <div class="menu-food">
-                    <!-- <h2>Our Delicious Menu</h2> -->
+                    <div class="menu-food__title">
+                        <h2>Our Delicious Menu</h2>
+                    </div>
                     <!-- <div class="food-types"> -->
                     <div class="food-types__nav">
-                        <a href="">Breakfast</a>
-                        <a href="">Lunch</a>
-                        <a href="">Dinner</a>
-                        <a href="">Dessert</a>
+                        <a href="" class="yellow-btn">Breakfast</a>
+                        <a href="" class="yellow-btn">Lunch</a>
+                        <a href="" class="yellow-btn">Dinner</a>
+                        <a href="" class="yellow-btn">Dessert</a>
                     </div>
                     <div class="food-types__pic">
                         <img src="./images/menu1.jpg" alt="">
@@ -123,52 +128,80 @@
                 <div class="popular">
                     <h2>Most
                         <p>Popular</p> Foods</h2>
-                    <div class="dish">
+                    <div class="dish dish1">
                         <div class="dish__pic">
                             <img src="./images/product-1.jpg" alt="">
                         </div>
                         <div class="dish__info">
                             <span>Delicious Food</span>
+                            <div class="star">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
                             <span> $30.00</span>
                         </div>
                         <div class="dish__buy">
-                            <a href="">Add To Card</a>
+                            <a href="" class="yellow-btn">Add To Card</a>
                         </div>
                     </div>
-                    <div class="dish">
+                    <div class="dish dish2">
                         <div class="dish__pic">
                             <img src="./images/product-2.jpg" alt="">
                         </div>
                         <div class="dish__info">
                             <span>Delicious Food</span>
+                            <div class="star">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
                             <span> $30.00</span>
                         </div>
                         <div class="dish__buy">
-                            <a href="">Add To Card</a>
+                            <a href="" class="yellow-btn">Add To Card</a>
                         </div>
                     </div>
-                    <div class="dish">
+                    <div class="dish dish3">
                         <div class="dish__pic">
                             <img src="./images/product-3.jpg" alt="">
                         </div>
                         <div class="dish__info">
                             <span>Delicious Food</span>
+                            <div class="star">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
                             <span> $30.00</span>
                         </div>
                         <div class="dish__buy">
-                            <a href="">Add To Card</a>
+                            <a href="" class="yellow-btn">Add To Card</a>
                         </div>
                     </div>
-                    <div class="dish">
+                    <div class="dish dish4">
                         <div class="dish__pic">
                             <img src="./images/product-4.jpg" alt="">
                         </div>
                         <div class="dish__info">
                             <span>Delicious Food</span>
+                            <div class="star">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
                             <span> $30.00</span>
                         </div>
                         <div class="dish__buy">
-                            <a href="">Add To Card</a>
+                            <a href="" class="yellow-btn">Add To Card</a>
                         </div>
                     </div>
                 </div>
