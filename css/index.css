@@ -170,3 +170,83 @@ a {
 .dish__buy {
     /* text-align: center; */
 }
+
+
+/* gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50px 1fr 1fr;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallery h2 {
+    grid-area: 1/3/2/5;
+    text-align: center;
+}
+
+.gallery__pic img {
+    width: 85%;
+}
+
+.gallery__pic1 {
+    grid-area: 2/2/3/3;
+}
+
+.gallery__pic2 {
+    grid-area: 2/3/3/4;
+}
+
+.gallery__pic3 {
+    grid-area: 2/4/3/5;
+}
+
+.gallery__pic4 {
+    grid-area: 2/5/3/6;
+}
+
+.gallery__pic5 {
+    grid-area: 3/3/4/4;
+}
+
+.gallery__pic6 {
+    grid-area: 3/4/4/5;
+}
+
+
+/* order */
+
+.order {
+    display: grid;
+    text-align: center;
+}
+
+.info-order {
+    display: grid;
+}
+
+.order__form {
+    display: flex;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #282727;
+    margin-top: 50px;
+    padding: 50px;
+    line-height: 40px;
+}
+
+.footer__info i {
+    color: #f7ca3e;
+}
+
+.footer__info p,
+h3 {
+    color: white;
+}
