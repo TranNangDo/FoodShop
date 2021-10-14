@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-font {
+    font-family: 'Oswald', sans-serif;
+}
+
 a {
     color: unset;
     text-decoration: none;
@@ -27,17 +35,37 @@ a {
     padding: 0 30px;
 } */
 
+.space-nav {
+    padding-top: 65px;
+}
+
+.nav-box {
+    box-shadow: 0px -3px 18px 0px rgb(99 99 99 / 50%);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px -3px 18px 0px rgb(99 99 99 / 50%);
     padding: 10px;
+    width: 1366px;
+    margin: auto;
+    /* position: fixed; */
 }
 
 .nav__menu ul li {
     list-style-type: none;
     display: inline;
     margin-right: 18px;
+}
+
+.nav__menu ul li a:hover {
+    color: #f7ca3e;
 }
 
 .nav__logo img {
@@ -49,10 +77,16 @@ a {
 
 .home {
     display: flex;
+    width: 1366px;
+    margin: auto;
 }
 
 .home__slogan {
     margin-top: 100px;
+}
+
+.home__slogan h2 {
+    font-size: 2.5rem;
 }
 
 
@@ -63,7 +97,7 @@ a {
 } */
 
 .home__slogan p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -77,6 +111,16 @@ a {
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 1366px;
+    margin: auto;
+}
+
+.about__content {
+    margin: auto;
+}
+
+.btn-learn {
+    margin-top: 20px;
 }
 
 
@@ -113,6 +157,8 @@ a {
 
 .menu-food__text {
     grid-area: serve;
+    line-height: 40px;
+    margin-top: 30px;
 }
 
 
@@ -121,11 +167,12 @@ a {
 .popular {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 50px 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr;
     text-align: center;
     margin-top: 50px;
     background-image: url(../images/popular-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .star {
@@ -139,6 +186,7 @@ a {
 .popular h2 {
     display: flex;
     grid-area: 1/3/2/4;
+    margin: auto;
 }
 
 .dish {
@@ -165,6 +213,10 @@ a {
 .dish__info {
     display: grid;
     /* text-align: center; */
+}
+
+.dish__info h3 {
+    color: #333333;
 }
 
 .dish__buy {
@@ -222,14 +274,29 @@ a {
 .order {
     display: grid;
     text-align: center;
+    width: 800px;
+    margin: auto;
 }
 
 .info-order {
     display: grid;
 }
 
+.info-order input {
+    margin-top: 20px;
+    height: 20px;
+}
+
 .order__form {
     display: flex;
+}
+
+.form__pic {
+    height: 400px;
+}
+
+.form__pic img {
+    height: 400px;
 }
 
 
