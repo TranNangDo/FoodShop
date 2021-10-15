@@ -1,9 +1,17 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
-
 const tabs = $$('.menu-btn');
 const panes = $$('.menu-img');
 // console.log(panes)
+
+let menuBtn = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.nav__menu');
+
+menuBtn.onclick = () => {
+    menuBtn.classList.toggle('fas');
+    navbar.classList.toggle('active');
+}
+let couter = 1;
 
 tabs.forEach((tab, index) => {
     const pane = panes[index];
