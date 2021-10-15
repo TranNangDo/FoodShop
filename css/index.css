@@ -47,6 +47,7 @@ a {
     right: 0;
     left: 0;
     z-index: 1;
+    background-color: white;
 }
 
 .navbar {
@@ -153,6 +154,14 @@ a {
 .food-types__pic {
     text-align: center;
     grid-area: pic;
+}
+
+.menu-img {
+    display: none;
+}
+
+.menu-img.img-active {
+    display: block;
 }
 
 .menu-food__text {
